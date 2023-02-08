@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/aws_proj" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aws_project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/git-devops" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/git_old" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/infinity/aws_proj" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/infinity/git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/infinity/github_docker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/infinity/github_docker/maven-hello-world" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/infinity/jenkins_maven_sonarq" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/infinity/jenkins_project_gitlab" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/infinity/k8s_jenkins" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/infinity/python_project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jenkins_maven_sonarq" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jenkins_project_gitlab" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python_project" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,30 @@
+#!/bin/bash
+#useful aliases
+infpush='git push -u origin master'
+#gcc compilation aliases
+alias gd='gcc -ansi -pedantic-errors -Wall -Wextra -g'
+alias gc='gcc -ansi -pedantic-errors -Wall -Wextra -DNDEBUG -O3'
+alias gd9='gcc -std=c99 -pedantic-errors -Wall -Wextra -g'
+alias gc9='gcc -std=c99 -pedantic-errors -Wall -Wextra -DNDEBUG -O3'
+
+#valgrind aliases
+alias vlg='valgrind --leak-check=yes --track-origins=yes'
+
+
+#my aliases
+alias x+='chmod +x'
+alias c='clear'
+
+#change layout script bind to f10 key
+changeLayout=$(find ~ -type f -name chageLayoutFromClipbordEx7.sh)
+bind '"\e[21~":"source ${changeLayout}\n"'
+
+#git shortcut
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gs='git status'
+
+lazyManWork=$(find ~ -type f -name GitShortcutScript.sh)
+alias gitit='source ${lazyManWork}'
+

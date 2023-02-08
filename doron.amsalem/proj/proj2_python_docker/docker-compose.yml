@@ -1,0 +1,16 @@
+# create first and after second container fron Dockerfile in current dir
+services:
+  web:
+    build: .
+    container_name: weather_app-server1
+
+  web2:
+    build: .
+    container_name: weather_app-server2
+
+  server:
+    ports:
+      - "80:80"
+    build: ./nginx-server
+    container_name: nginx-server
+

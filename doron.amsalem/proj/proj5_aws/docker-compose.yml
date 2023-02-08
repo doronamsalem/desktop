@@ -1,0 +1,13 @@
+services:
+  web:
+    build: ./server1
+    container_name: aws_proj_server1
+    image: server1_weather_site_imager
+    ports:
+      - "8081:8081"
+  web2:
+    build: ./server2
+    container_name: aws_proj_server2
+    image: server2_weather_site_imager
+    ports:
+      - "8082:8082"

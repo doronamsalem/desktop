@@ -1,0 +1,13 @@
+# create first and after second container fron Dockerfile in current dir
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    container_name: weather_app-server1
+  web2:
+    build: .
+    ports:
+      - "5001:5000"
+    container_name: weather_app-server2
+

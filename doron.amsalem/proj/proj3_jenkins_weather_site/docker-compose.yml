@@ -1,0 +1,16 @@
+services:
+  web:
+    build: .
+    container_name: weather_app-server1
+    image: doronamsalem/website:webserver
+
+  web2:
+    container_name: weather_app-server2
+    image: doronamsalem/website:webserver
+
+  server:
+    ports:
+      - "80:80"
+    build: ./nginx-server
+    container_name: nginx-server
+    image: doronamsalem/website:nginx
